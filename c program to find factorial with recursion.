@@ -1,0 +1,25 @@
+#include <stdio.h>
+int fact(int a)
+{
+    if(a==0)
+    {
+        return 1;
+    }
+    else
+    {
+        return (a*fact(a-1));
+    }
+}
+ 
+ int main()
+ {
+    int x,f;
+    printf("\nenter any numbers =");
+    scanf("%d",&x);
+    printf("\nfactorial of %d is %d",x,fact(x));
+    return(0);
+ }
+output =
+  enter any numbers =5
+factorial of 5 is 120
+ ____________________________________________________
