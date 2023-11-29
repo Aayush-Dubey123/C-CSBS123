@@ -1,0 +1,25 @@
+#include <stdio.h>
+int add(int n)
+{
+int d,sum;
+sum=0;
+while(n>0)
+    {
+        d=n%10;
+        sum=sum+d;
+        n=n/10;
+    }
+return (sum);
+} 
+ int main()
+ {
+    int num;
+    printf("\nenter any numbers =");
+    scanf("%d",&num);
+    printf("\nsum of digits of %d is %d",num,add(num));
+    return(0);
+ }
+output =
+enter any numbers =1234
+sum of digits of 1234 is 10.
+_____________________________________________________________
