@@ -17,5 +17,13 @@
     printf("\ndata of p=%u",p);
     printf("\ndata of q=%u",q);
  }
-output =
+output =a=10
+*p10
+**q=10
+***r=10
+address of a=3997689764
+address of p3997689752
+address of q=3997689744
+data of p=3997689764
+data of q=3997689752
 ___________________________________________
