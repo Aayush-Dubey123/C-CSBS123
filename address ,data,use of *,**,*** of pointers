@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+ int main()
+ {
+    int a=10;
+    int *p ,**q,***r;
+    p=&a;
+    q=&p;
+    r=&q;
+    printf("\na=%d",a);
+    printf("\n*p%d",*p);
+    printf("\n**q=%d",**q);
+    printf("\n***r=%d",***r);
+    printf("\naddress of a=%u",&a);
+    printf("\naddress of p%u",&p);
+    printf("\naddress of q=%u",&q);
+    printf("\ndata of p=%u",p);
+    printf("\ndata of q=%u",q);
+ }
+output =
+___________________________________________
