@@ -1,0 +1,23 @@
+#include <stdio.h>
+ int main()
+ {
+    int a=100;
+    int b=200;
+    
+    printf("\nbefore swap the number is %d and %d",a,b);
+    swap(&a,&b);
+     printf("\nafter swap the number is %d and %d",a,b);
+     return(0);
+ }
+ void swap(int *x,int *y)
+{
+    int temp;
+    temp=*x;
+    *x=*y;
+    *y=temp;
+}
+output=
+  before swap the number is 100 and 200
+after swap the number is 200 and 100
+  _________________________________________________________________________
+  
