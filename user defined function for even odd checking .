@@ -1,0 +1,26 @@
+
+#include <stdio.h>
+void evenodd(int num)
+{
+ if(num%2==0)
+ 
+  {
+    printf("number is even");
+  }
+   else
+  {
+    printf("number is odd");
+  }
+}
+
+int main() 
+{
+  int n ;
+  printf("enter value=");
+  scanf("%d",&n);
+  evenodd(n);
+    return 0;
+}
+output=
+enter value=3
+number is odd
