@@ -1,0 +1,44 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+int reverse(int n)
+{
+    int r=0;
+    while(n>0)
+    {
+        r=r*10+n%10;
+        n=n/10;
+    }
+  return(r);    
+}
+
+    int palin(int n)
+    {
+        if(n==reverse(n))
+        {
+            return 1;
+        }
+        else
+        {
+            return 0;
+        }
+    }
+
+int main() 
+{
+  int a ;
+  printf("enter value");
+  scanf("%d",&a);
+  if(palin(a))
+   {
+    printf(" value is palindrome");   
+   }
+   else
+   {
+    printf(" value is not palindrome");   
+   }
+    return 0;
+}
+output =
+enter value123
+value is not palindrome
+______________________________________________________________________
