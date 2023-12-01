@@ -1,0 +1,32 @@
+
+#include <stdio.h>
+void maximum()
+{
+ int a,b,c;
+  printf("enter value=");
+  scanf("%d%d%d",&a,&b,&c);
+  if(a>b && a>c)
+     {
+  printf("\nnum is largest=%d",a);
+     }
+     else
+     {
+        if(b>c)
+       {
+         printf("\nnum is largest=%d",b);
+       }
+    else
+       { 
+       printf("\nnum is largest=%d",c);
+       }
+    }
+}
+int main() 
+{ 
+ maximum();
+    return 0;
+}
+output =
+enter value=1 2 3 
+num is largest=3
+____________________________________________________
