@@ -1,0 +1,31 @@
+
+#include <stdio.h>
+typedef struct student 
+{
+    char name[20];
+    int age;
+    float per;
+}stud;
+int main()
+{
+   stud s[5];
+   int i;
+   for(i=0;i<5;i++)
+   {
+       printf("\n enter name =");
+       scanf("%s",s[i].name);
+       printf("\n enter age =");
+       scanf("%d",&s[i].age);
+       printf("\n enter per =");
+       scanf("%f",&s[i].per);
+   }
+   for(i=0;i<5;i++)
+   {
+       printf("\n details= %d",i+1);
+   printf("\n name = %s",s[i].name);
+   printf("\n age = %d",s[i].age);
+   printf("\n per =%f",s[i].per);
+   }
+ 
+    return 0;
+}
